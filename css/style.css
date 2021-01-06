@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-color: #fff;
+	font-family: "Comic Sans MS";
+}
+
+#message {
+	width: 90%;
+	margin: 10% auto;
+	padding: 1%;
+	min-height: 300px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	box-shadow: 0.1px 0.1px 5px #000;
+	font-size: 50px;
+	color: brown;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;	
+}
+
+#leftPart {
+	width: 40%;
+	text-align: left;
+	overflow: hidden;
+}
+
+#rightPart {
+	width: 40%;
+	text-align: right;
+	overflow: hidden;
+}
+
+#centerPart {
+	width: 20%;
+	text-align: center;
+	font-size: 100px;
+}
+
+.salut {
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: red;
+}
+
+.partSalut {
+	position: absolute;
+	z-index: -1;
+	border-radius: 50%;
+}
